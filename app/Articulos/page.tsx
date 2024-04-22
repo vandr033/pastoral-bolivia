@@ -29,7 +29,7 @@ const articulos: articulo[] = [
         Author: 'Padre Mateo Bautista',
         date: 'Capitulo Escrito por: Jessie Pedraza',
         content:"",
-        link: ''
+        link: 'https://ufile.io/qzcnvrgu'
     },
     {
         img: imgLibro.src,
@@ -37,7 +37,7 @@ const articulos: articulo[] = [
         Author: 'Padre Mateo Bautista',
         date: 'Capitulo Escrito por: Marina Poveda',
         content:"",
-        link: ''
+        link: 'https://ufile.io/qk4s1z66'
     },
     {
         img: imgDuelo.src,
@@ -46,15 +46,15 @@ const articulos: articulo[] = [
         date: 'Capitulo Escrito por: Marina Poveda',
         // content: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
         content:"",
-        link: ''
+        link: 'https://ufile.io/0rjp22le'
     },
     {
         img: imgDuelo.src,
         title: 'Sin Perdón Nunca Se Sana del Duelo',
         Author: 'Padre Mateo Bautista',
         date: 'Capitulo Escrito por: Marina Poveda',
-        content:"",
-        link: ''
+        link:"https://ufile.io/sncaqj8t",
+        content: ''
     }
     
 ]
