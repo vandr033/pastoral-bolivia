@@ -4,7 +4,7 @@ import comprafisica from '@/public/assets/images/iconos/Open Book.png'
 import { Button } from '@nextui-org/button';
 import Image from 'next/image';
 import Link from 'next/link';
-import rosmery from '@/public/assets/images/rosmery.png';
+import rosmery from '@/public/assets/images/Rosmery.png';
 import marina from '@/public/assets/images/marina.png';
 import ximena from '@/public/assets/images/Ximena.gif';
 import entrvista from '@/public/assets/images/entrevista.png';
