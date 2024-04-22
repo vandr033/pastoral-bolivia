@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import img from '@/public/assets/images/voluntarias.webp'
 import imgLibro from '@/public/assets/images/libro.png'
+import imgDuelo from '@/public/assets/images/duelo-viudez.jpg'
 import ArticulosComponent from '@/components/articulos'
 type Props = {}
 type articulo = {
@@ -27,17 +28,35 @@ const articulos: articulo[] = [
         title: 'Los Hermanos También Hacen el Duelo',
         Author: 'Padre Mateo Bautista',
         date: 'Capitulo Escrito por: Jessie Pedraza',
-        content:'"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-        link: 'https://eldeber.com.bo/para-ellas/resurreccion-grupo-parroquial-de-mutua-ayuda-en-duelo_345467'
+        content:"",
+        link: ''
     },
     {
         img: imgLibro.src,
         title: 'Sin Perdón Nunca Se Sana del Duelo',
         Author: 'Padre Mateo Bautista',
         date: 'Capitulo Escrito por: Marina Poveda',
-        content: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
-        link: 'https://eldeber.com.bo/para-ellas/resurreccion-grupo-parroquial-de-mutua-ayuda-en-duelo_345467'
+        content:"",
+        link: ''
+    },
+    {
+        img: imgDuelo.src,
+        title: 'Sabiduria Para La Vida Y La Muerte',
+        Author: 'Padre Mateo Bautista',
+        date: 'Capitulo Escrito por: Marina Poveda',
+        // content: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
+        content:"",
+        link: ''
+    },
+    {
+        img: imgDuelo.src,
+        title: 'Sin Perdón Nunca Se Sana del Duelo',
+        Author: 'Padre Mateo Bautista',
+        date: 'Capitulo Escrito por: Marina Poveda',
+        content:"",
+        link: ''
     }
+    
 ]
 const Articulos = (props: Props) => {
   return (
